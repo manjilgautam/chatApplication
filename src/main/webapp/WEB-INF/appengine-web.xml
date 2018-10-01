@@ -15,7 +15,8 @@
   limitations under the License.
 -->
 <appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
-    <application>YOUR_PROJECT_ID</application>
+    <application>seminar-218100
+    </application>
     <version>1</version>
     <threadsafe>false</threadsafe>
     <sessions-enabled>true</sessions-enabled>
