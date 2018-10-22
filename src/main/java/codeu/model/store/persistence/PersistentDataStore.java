@@ -17,7 +17,6 @@ package codeu.model.store.persistence;
 import codeu.model.data.Conversation;
 import codeu.model.data.Message;
 import codeu.model.data.User;
-import codeu.model.store.persistence.PersistentDataStoreException;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -68,7 +67,7 @@ public class PersistentDataStore {
         String description = (String) entity.getProperty("description");
         String passwordHash = (String) entity.getProperty("password_hash");
         Instant creationTime = Instant.parse((String) entity.getProperty("creation_time"));
-        User user = new User(uuid, userName, passwordHash, creationTime,description);
+        User user = new User(uuid, userName, passwordHash, creationTime, 0, description);
         users.add(user);
       } catch (Exception e) {
         // In a production environment, errors should be very rare. Errors which may

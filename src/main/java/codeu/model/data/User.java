@@ -26,13 +26,13 @@ public class User {
   private  String description;
   /**
    * Constructs a new User.
-   *
-   * @param id the ID of this User
+   *  @param id the ID of this User
    * @param name the username of this User
    * @param passwordHash the password hash of this User
    * @param creation the creation time of this User
+   * @param i
    */
-  public User(UUID id, String name, String passwordHash, Instant creation,String description) {
+  public User(UUID id, String name, String passwordHash, Instant creation, int i, String description) {
     this.id = id;
     this.name = name;
     this.passwordHash = passwordHash;
@@ -40,7 +40,7 @@ public class User {
     this.description = description;
   }
   public User(UUID id, String name, String passwordHash, Instant creation) {
-    this(id, name, passwordHash, creation,"");
+    this(id, name, passwordHash, creation, 0, "");
   }
 
   /** Returns the ID of this User. */
