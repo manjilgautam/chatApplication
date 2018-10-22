@@ -49,7 +49,7 @@ public class ProfileServletTest {
 
     }
 
-    //Creating fakeUser
+
     private void setupFakeUser() {
         fakeUser =
                 new User(
