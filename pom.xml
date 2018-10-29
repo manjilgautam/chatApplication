@@ -94,6 +94,12 @@
     </dependency>
 
     <dependency>
+      <groupId>com.vladsch.flexmark</groupId>
+      <artifactId>flexmark-all</artifactId>
+      <version>0.34.48</version>
+    </dependency>
+
+    <dependency>
       <groupId>com.google.appengine</groupId>
       <artifactId>appengine-tools-sdk</artifactId>
       <version>1.9.60</version>
