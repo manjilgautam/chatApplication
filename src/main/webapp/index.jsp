@@ -16,7 +16,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CodeU Chat App</title>
+  <title>Chat App</title>
   <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
@@ -35,7 +35,7 @@
   <div id="container">
     <div style="width:75%; margin-left:auto; margin-right:auto; margin-top: 50px;">
 
-      <h1>CodeU Chat App</h1>
+      <h1>Chat App</h1>
       <h2>Welcome!</h2>
 
       <ul>
